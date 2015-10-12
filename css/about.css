@@ -1,0 +1,35 @@
+
+
+.about-section .description{
+	padding: 0;
+	margin-top: 70px;
+	margin-bottom: 140px;
+}
+
+.team{
+	
+	padding: 0;
+}
+
+ .title{
+ 	margin-bottom: 60px;
+
+}
+
+.team-member{
+	padding:0;
+}
+
+.role{
+	color: #aaa;
+	font-weight: 400;
+}
+
+.team .profile-pic{
+	border-radius: 100%;
+	
+}
+.footer{
+	height: 200px;
+	width: 100%;
+}
