@@ -1,9 +1,11 @@
 
 
-.about-section .description{
-	padding: 0;
-	margin-top: 70px;
-	margin-bottom: 140px;
+
+
+.divider{
+	margin-bottom: 100px;
+	height: 1px;
+	background-color: #ccc;
 }
 
 .team{
@@ -29,6 +31,13 @@
 	border-radius: 100%;
 	
 }
+
+.social{
+	width: 45px;
+	margin: 15px;
+	opacity: .3;
+}
+
 .footer{
 	height: 200px;
 	width: 100%;
