@@ -1,8 +1,12 @@
 h1,h2,h3,h4,h5,a,p{
-	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	font-family: 'Work Sans',Helvetica,Arial,sans-serif;
 	font-weight: 300;
 	line-height: 1.4;
 	
+}
+
+h2{
+	font-size: 32px;
 }
 
 .navbar{
@@ -33,7 +37,7 @@ h1,h2,h3,h4,h5,a,p{
 
 .title{
 	color: #aaa;
-	font-size: 18px;
+	font-size: 16px;
 	padding:0;
 	font-weight: 400;
  	text-transform: uppercase;
@@ -47,8 +51,8 @@ h1,h2,h3,h4,h5,a,p{
 
 .description{
 	padding: 0;
-	margin-top: 60px;
-	margin-bottom: 140px;
+	margin-top: 100px;
+	margin-bottom: 180px;
 	
 
 	}
@@ -94,6 +98,6 @@ h1,h2,h3,h4,h5,a,p{
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1050px;
+    width: 1150px;
   }
 }
