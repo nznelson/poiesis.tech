@@ -112,13 +112,13 @@ h2{
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
 	background:none;
 	
-	color: #000;
+	color: #0024fe;
 
 
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-	color: #000;
+	color: #0024fe;
 	-webkit-transition: all 0.4s ease;
     -moz-transition:  all 0.4s ease;
     -o-transition: all 0.4s ease;
