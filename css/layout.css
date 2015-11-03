@@ -79,7 +79,8 @@ h2{
 	border:none;
 	background:none;
 	margin-bottom: 0;
-	background: #fff;
+	padding-bottom: 30px;
+	
 	width: 100%;
 }
 
@@ -87,6 +88,7 @@ h2{
 	padding: 0;
 	padding-left: 80px;
 	margin-left: 0;
+	    margin-top: 5px;
 	height: auto;
 }
 
@@ -221,6 +223,45 @@ z-index: -1;
 	margin-top: 20px;
 }
 
+
+
+
+.work{
+	padding: 120px 0;
+}
+
+.header{
+	height: 100px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.header .diagonal-line{
+	height: 100px;
+	width: 2px;
+	position: absolute;
+	left: 50%;
+	background-color: #0024fe;
+	-ms-transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+
+.header h1{
+	font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+    padding-top: 41px;
+    font-family: axis,'Work Sans',Helvetica,Arial,sans-serif;
+}
+
+.work .project{
+	width:100%;
+	margin:20px 0;
+	
+}
+
 .title{
 	color: #aaa;
 	font-size: 16px;
@@ -233,45 +274,85 @@ z-index: -1;
 
 
 
-.description{
-	padding: 0;
-	margin-top: 180px;
-	margin-bottom: 140px;
+.about .description{
+	padding: 80px 0 200px;
+	
 	font-size: 22px;
 
 	}
 
+	.about .header{
+		margin-top: 200px;
+	}
 
-.work{
-	padding: 120px 0;
+.about-page .navbar-default .navbar-nav>li>a{
+	color: #fff;
 }
 
-.work .header{
+.about-bg{
+	position: absolute;
+	
+	right: 0;
+	z-index: -1;
+}
+
+.contact .contact-container{
+	height: 100vh;
+	width: 100%;
+	display: table;
+}
+
+.contact .contact-container .contact-inner{
+	display: table-cell;
+	vertical-align: middle;
+
+	}
+
+.contact .contact-container .contact-inner .diamond-container{
+	width: 400px;
+	height: 400px;
 	margin: 0 auto;
+
+}
+
+.contact .contact-container .contact-inner .diamond-container .diamond{
+	border: 2px #0024fe solid;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	
+	z-index: -1;
+	-ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);
+}
+
+.contact .text-container{
+	padding-top: 60px;
+}
+
+.contact .email {
+	margin: 20px 0;
 	text-align: center;
 }
 
-.work .header .diagonal-line{
-	height: 200px;
-	width: 4px;
-	position: absolute;
-	background-color: #000;
-}
+.contact .email a{
+	color: #0024fe;
+	font-size: 18px;
 
-.work .header h1{
-	font-size: 20px;
-	text-transform:uppercase;
-	letter-spacing: 4px;
-	padding-bottom: 20px;
-	font-family: axis;
-}
-
-.work .project{
-	width:100%;
-	margin:20px 0;
 	
 }
 
+.contact .text{
+	width: 200px;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: axis,'Work Sans',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 10px;
+}
 
 
 
