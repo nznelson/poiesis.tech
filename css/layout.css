@@ -150,7 +150,31 @@ h2{
 	
 }
 
+.header{
+	height: 100px;
+	margin-bottom: 20px;
+	text-align: center;
+}
 
+.header .diagonal-line{
+	height: 100px;
+	width: 2px;
+	position: absolute;
+	left: 50%;
+	background-color: #0024fe;
+	-ms-transform: skewX(-45deg);
+	-webkit-transform: skewX(-45deg);
+	transform: skewX(-45deg);
+}
+
+.header h1{
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+
+	padding-top: 41px;
+	font-family: axis,'Work Sans',Helvetica,Arial,sans-serif;
+}
 
 
 .intro{
@@ -174,18 +198,6 @@ h2{
 	
 
 }
-
-
-
-.mouse-bg {
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	position: fixed;
-	z-index: -1;
-}
-
 
 .intro .inner{
 	display: table-cell;
@@ -229,30 +241,10 @@ h2{
 	padding: 120px 0;
 }
 
-.header{
-	height: 100px;
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-.header .diagonal-line{
-	height: 100px;
-	width: 2px;
-	position: absolute;
-	left: 50%;
-	background-color: #0024fe;
-	-ms-transform: skewX(-45deg);
-	-webkit-transform: skewX(-45deg);
-	transform: skewX(-45deg);
-}
-
-.header h1{
-	font-size: 16px;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-
-	padding-top: 41px;
-	font-family: axis,'Work Sans',Helvetica,Arial,sans-serif;
+.work .project-details{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.6);
 }
 
 .work .project{
@@ -274,14 +266,14 @@ h2{
 
 
 .about .description{
-	padding: 80px 0 200px;
+	padding: 80px 0 160px;
 	
 	font-size: 22px;
 
 }
 
 .about .header{
-	margin-top: 200px;
+	
 }
 
 .about-page .navbar-default .navbar-nav>li>a{
@@ -295,7 +287,9 @@ h2{
 
 }
 
-
+.about{
+	padding: 120px 0;
+}
 
 .about-bg{
 	position: absolute;
@@ -324,7 +318,7 @@ h2{
 }
 
 .contact .contact-container .contact-inner .diamond-container .diamond{
-	border: 2px #0024fe solid;
+	border: 4px #0024fe solid;
 	width: 400px;
 	height: 400px;
 	position: absolute;
