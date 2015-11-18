@@ -15,6 +15,10 @@ h2{
 	opacity: .8;
 }
 
+a, a:hover{
+	color: #6076FD;
+}
+
 .hvr-grow-shadow {
 	display: inline-block;
 	vertical-align: middle;
@@ -54,7 +58,7 @@ h2{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #0024fe;
+	background: #6076FD;
 	height: 2px;
 	-webkit-transform: translateY(4px);
 	transform: translateY(4px);
@@ -113,13 +117,13 @@ h2{
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
 	background:none;
-	color: #0024fe;
+	color: #6076FD;
 
 
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-	color: #0024fe;
+	color: #6076FD;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition:  all 0.4s ease;
 	-o-transition: all 0.4s ease;
@@ -130,13 +134,14 @@ h2{
 	color: #fff;
 	background: none;
 	border: 2px #fff solid;
+	
 	border-radius: 0;
 	text-transform: uppercase;
 	font-size: 10px;
-	padding: 13px 42px;
+	padding: 14px 60px;
 	font-weight: 500;
 	letter-spacing: 2px;
-
+	margin-top: 20px;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition:  all 0.4s ease;
 	-o-transition: all 0.4s ease;
@@ -145,7 +150,7 @@ h2{
 
 .btn-default:hover, .btn-default:focus, .btn-default:active{
 	background: #fff;
-	color: #0024fe;
+	color: #6076FD;
 	border-color:#fff;
 	
 }
@@ -161,7 +166,7 @@ h2{
 	width: 2px;
 	position: absolute;
 	left: 50%;
-	background-color: #0024fe;
+	background-color: #6076FD;
 	-ms-transform: skewX(-45deg);
 	-webkit-transform: skewX(-45deg);
 	transform: skewX(-45deg);
@@ -178,7 +183,7 @@ h2{
 
 
 .intro{
-	padding: 80px 80px 40px 80px;
+	padding: 80px 0 0 0;
 	height: 100vh;
 	
 	width: 100%;
@@ -202,38 +207,45 @@ h2{
 .intro .inner{
 	display: table-cell;
 	vertical-align: middle;
+	color: #fff
 }
 
 .intro .inner .logo{
 	display: block;
-	margin: 0 auto;
+	margin: 0px auto;
 	margin-bottom: 20px;
+	width: 200px;
+	
 }
 
 .intro .inner-text{
-	width: 300px;
+	width: 350px;
 	margin: 0 auto;
-}
-
-.intro .inner-text a{
 	color: #fff;
-	padding-top: 20px;
-	font-weight: 400px;
-	font-size: 12px;
 }
 
 
-.intro .inner-text p{
+.intro .inner h1{
+	font-size: 32px;
+
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-weight: 400;
+	/*font-family: 'Lora', serif;*/
+}
+
+
+.intro .inner p{
 	
 	display: block;
-	margin: 0 auto;
-	color: #fff;
-	font-size: 15px;
+	/*font-family: 'Lora', serif;*/
+	font-size: 12px;
 	letter-spacing: 2px;
-	text-align: justify;
-	margin-top: 20px;
+	text-align: center;
+	margin: 0;
 }
-
 
 
 
@@ -277,12 +289,12 @@ h2{
 }
 
 .about-page .navbar-default .navbar-nav>li>a{
-	color: #fff;
+	
 }
 
 .about-page  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
 	background:none;
-	color: #0024fe;
+	color: #6076FD;
 
 
 }
@@ -294,7 +306,7 @@ h2{
 .about-bg{
 	position: absolute;
 	
-	right: 0;
+	left: 0;
 	z-index: -1;
 }
 
@@ -318,7 +330,7 @@ h2{
 }
 
 .contact .contact-container .contact-inner .diamond-container .diamond{
-	border: 4px #0024fe solid;
+	border: 4px #6076FD solid;
 	width: 400px;
 	height: 400px;
 	position: absolute;
@@ -339,7 +351,7 @@ h2{
 }
 
 .contact .email a{
-	color: #0024fe;
+	
 	font-size: 18px;
 
 	
