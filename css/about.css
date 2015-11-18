@@ -2,16 +2,9 @@
 
 
 
-.divider{
-	margin-bottom: 100px;
-	height: 1px;
-	background-color: #ccc;
-}
 
-.team{
-	
-	padding: 0;
-}
+
+
 
  .title{
  	margin-bottom: 60px;
@@ -42,7 +35,3 @@
 	opacity: 1;
 }
 
-.footer{
-	height: 200px;
-	width: 100%;
-}
