@@ -104,7 +104,7 @@ a, a:hover{
 	font-size: 12px;
 	color: #aaa;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 500;
 	letter-spacing: 3px;
 	padding: 0;
 	padding-bottom: 5px;
@@ -161,7 +161,7 @@ a, a:hover{
 
 .header .diagonal-line{
 	height: 100px;
-	width: 2px;
+	width: 4px;
 	position: absolute;
 	left: 50%;
 	background-color: #6076FD;
@@ -172,10 +172,10 @@ a, a:hover{
 
 .header h1{
 	font-size: 16px;
-	text-transform: uppercase;
-	letter-spacing: 4px;
+	letter-spacing: 6px;
 	font-weight: 600;
-	padding-top: 38px;
+	padding-top: 40px;
+	text-transform: uppercase;
 	/*font-family: axis,'Work Sans',Helvetica,Arial,sans-serif;*/
 }
 
@@ -249,6 +249,10 @@ a, a:hover{
 	padding: 120px 0;
 }
 
+.work .project-section{
+	padding-top: 80px;
+}
+
 .work .project-details{
 	width: 100%;
 	height: 100%;
@@ -275,6 +279,7 @@ a, a:hover{
 .about .description{
 	padding: 80px 0 120px;
 	font-size: 18px;
+	color: #777;
 
 }
 
@@ -293,6 +298,7 @@ a, a:hover{
 .about-bg{
 	position: absolute;
 	left: 0;
+	padding: 0;
 	z-index: -1;
 }
 
@@ -330,71 +336,65 @@ a, a:hover{
 	opacity: 1;
 }
 
+.contact{
+	padding: 220px 0 0;
+    height: 100vh;
+}
+
 
 .contact .contact-container{
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	display: table;
+	background: url(../img/bg2.jpg);
+	background-size: cover;
 }
 
 .contact .contact-container .contact-inner{
 	display: table-cell;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 
 }
 
 .contact .contact-container .contact-inner .diamond-container{
-	width: 400px;
 	height: 400px;
-	margin: 0 auto;
-
+	margin-top: -100px;
 }
 
 .contact .contact-container .contact-inner .diamond-container .diamond{
-	border: 4px #6076FD solid;
-	width: 400px;
 	height: 400px;
+	width: 100%;
 	position: absolute;
-	
-	z-index: -1;
-	-ms-transform: rotate(45deg); 
-	-webkit-transform: rotate(45deg); 
-	transform: rotate(45deg);
+	padding: 0;
+	box-shadow: 0px 10px 30.14px 4px rgba(0, 0, 0, 0.2);
+	background-image: url(../img/contact-bg.png);
+	background-size: cover; 
+	background-position: 30% 10%; 
 }
 
 .contact .text-container{
-	padding-top: 60px;
+	padding: 0 80px;
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+
 }
 
 .contact .email {
 	margin: 20px 0;
-	text-align: center;
+
 }
 
 .contact .email a{
-	
-	font-size: 18px;
-
-	
+	font-size: 28px;
+	color: #fff;
+	font-weight: 400;
 }
 
 .contact .text{
-	width: 200px;
-	margin: 0 auto;
-	text-align: justify;
-	font-family: axis,'Work Sans',Helvetica,Arial,sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	line-height: 2;
-	font-size: 10px;
+	color: #fff;
+	font-size: 20px;
 }
-
-
-
-
-
-
-
 
 
 
