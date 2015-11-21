@@ -160,10 +160,7 @@ a, a:hover{
 	/*background-color: #6076FD;*/
 }
 
-.navbar-default .navbar-collapse {
-	background: #fff;
-	border: none;
-}
+
 
 .btn-default:hover, .btn-default:focus, .btn-default:active{
 	background: #fff;
@@ -173,17 +170,17 @@ a, a:hover{
 }
 
 .header{
-	height: 100px;
-	margin-bottom: 20px;
+	height: 80px;
 	text-align: center;
 }
 
 .header .diagonal-line{
-	height: 100px;
+	height: 80px;
 	width: 4px;
 	position: absolute;
 	left: 50%;
 	background-color: #6076FD;
+	z-index: -1;
 	-ms-transform: skewX(-45deg);
 	-webkit-transform: skewX(-45deg);
 	transform: skewX(-45deg);
@@ -193,7 +190,7 @@ a, a:hover{
 	font-size: 16px;
 	letter-spacing: 6px;
 	font-weight: 600;
-	padding-top: 40px;
+	padding-top: 30px;
 	text-transform: uppercase;
 	/*font-family: axis,'Work Sans',Helvetica,Arial,sans-serif;*/
 }
@@ -308,9 +305,7 @@ a, a:hover{
     filter: invert(100%);
 }
 
-.about-page .navbar-default .navbar-collapse {
-	background:none;
-}
+
 
 .about{
 	padding: 120px 0 0;
@@ -334,6 +329,7 @@ a, a:hover{
 
 .about .team-member{
 	padding:0;
+	padding-bottom: 40px;
 }
 
 .about .role{
@@ -349,6 +345,7 @@ a, a:hover{
 
 .about .team .name{
 	font-size: 28px;
+	margin-top: 30px;
 }
 
 .about .social{
@@ -384,6 +381,7 @@ a, a:hover{
 .contact .contact-container .contact-inner .diamond-container{
 	height: 400px;
 	margin-top: -100px;
+	padding: 0;
 }
 
 .contact .contact-container .contact-inner .diamond-container .diamond{
@@ -443,6 +441,9 @@ a, a:hover{
 }
 
 @media (max-width: 768px) {
+	.container{
+		padding: 0 40px;
+	}
 	.navbar-brand {
 		padding-left: 30px;
 	}
@@ -453,4 +454,22 @@ a, a:hover{
 		text-align: right;
 		padding: 10px 0;
 	}
+	.navbar-default .navbar-collapse {
+		background: #fff;
+		border-top: none;
+		border-bottom: 1px #ddd solid;
+	}
+	.contact{
+		padding-top: 80px; 
+	}
+
+	.contact .text-container{
+		padding: 0 40px;
+	}
+
+	.contact .contact-container .contact-inner .diamond-container{
+		margin-top: 40px;
+	}
+
+}
 
