@@ -211,10 +211,10 @@ a, a:hover{
 }
 
 .header h1{
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 400;
 	padding-top: 30px;
-	color: #6076FD;
+	/*color: #6076FD;*/
 }
 
 
@@ -309,7 +309,7 @@ a, a:hover{
 	transform: translateY(-50%);
 	color: #fff;
 	letter-spacing: 2px;
-	text-align: center;
+	
 
 }
 
