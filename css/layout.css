@@ -10,10 +10,7 @@ h1,h2,h3,h4,h5,a,p{
 	
 }
 
-h2{
-	font-size: 32px;
-	opacity: .8;
-}
+
 
 a, a:hover{
 	color: #6076FD;
@@ -79,13 +76,12 @@ a, a:hover{
 
 .navbar{
 	padding-top: 40px;
-	position: absolute;
 	border:none;
 	background:none;
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	z-index: 100;
-	width: 100%;
+	
 }
 
 .navbar-brand{
@@ -98,6 +94,19 @@ a, a:hover{
 
 .navbar-right{
 	padding-right: 80px;
+	padding-left: 80px;
+}
+
+
+.navbar-default .navbar-collapse {
+	background: #fff;
+	border-top: none;
+	border-bottom: 1px #ddd solid;
+}
+
+.navbar-default .navbar-nav li{
+		width: 33%;
+	float: left;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -106,9 +115,8 @@ a, a:hover{
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 3px;
-	padding: 0;
-	padding-bottom: 5px;
-	margin-left: 40px;
+	text-align: center;
+	padding: 40px 0;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition:  all 0.4s ease;
 	-o-transition: all 0.4s ease;
@@ -118,8 +126,6 @@ a, a:hover{
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
 	background:none;
 	color: #6076FD;
-
-
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
@@ -146,20 +152,42 @@ a, a:hover{
 	transition: all 0.4s ease;
 }
 
-.navbar-default .navbar-toggle{
-	border: none;
-	margin-top: -6px;
-	margin-bottom: 14px;
-}
+
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
 	background:none;
 }
 
-.navbar-default .navbar-toggle .icon-bar{
-	/*background-color: #6076FD;*/
+/* mobile nav for desktop */
+
+.navbar-header {
+	float: none;
+}
+.navbar-toggle {
+	display: block;
+	padding: 5px 80px 0 0;
+	border: none;
+	margin: 0;
+	
 }
 
+.navbar-default .navbar-collapse {
+	border: none;
+}
+.navbar-collapse.collapse {
+	display: none!important;
+}
+.navbar-nav {
+	float: none!important;
+	margin: 7.5px -15px;
+}
+.navbar-nav>li {
+	float: none;
+}
+.navbar-collapse.collapse.in {
+	display: block !important; 
+	border: none;
+}
 
 
 .btn-default:hover, .btn-default:focus, .btn-default:active{
@@ -187,18 +215,15 @@ a, a:hover{
 }
 
 .header h1{
-	font-size: 16px;
-	letter-spacing: 6px;
-	font-weight: 600;
+	font-size: 32px;
+	font-weight: 400;
 	padding-top: 30px;
-	text-transform: uppercase;
-	/*font-family: axis,'Work Sans',Helvetica,Arial,sans-serif;*/
 }
 
 
 .intro{
-	padding: 80px 0 0 0;
-	height: 100vh;
+	padding: 0;
+	height: 90vh;
 	
 	width: 100%;
 	text-align: center;
@@ -262,24 +287,69 @@ a, a:hover{
 
 
 .work{
-	padding: 120px 0;
+	padding: 100px 0 0;
 }
 
 .work .project-section{
-	padding-top: 80px;
-}
-
-.work .project-details{
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,.6);
+	padding: 0;
+	padding-top: 40px;
 }
 
 .work .project{
-	width:100%;
-	margin:20px 0;
+	width: 100%;
+	height: 100vh;
+	position: relative;
 	
 }
+
+
+.work .project-details .btn-default:hover, .work .project-details .btn-default:focus{
+	color: #000;
+}
+
+.work .project-details{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	letter-spacing: 2px;
+	text-align: center;
+
+}
+
+.work .project-details h1{
+	font-weight: 400;
+	font-size: 42px;
+	margin-bottom: 5px;
+}
+
+.work .project-details h2{
+	text-transform: uppercase;
+	font-size: 15px;
+	opacity: .8;
+	font-weight: 400;
+	margin: 0;
+}
+
+.work .project-details p{
+	margin: 40px 0;
+}
+
+.work .project-details .btn-default{
+	border: 2px solid #fff; 
+}
+
+.work .filmhunt{
+	background: url(../img/filmhunt02.jpg);
+	background-size: cover; 
+}
+
+.work .timetravel{
+	background: url(../img/timetravel02.jpg);
+	background-size: cover; 
+	}
+
+
 
 .title{
 	font-size: 14px;
@@ -292,8 +362,13 @@ a, a:hover{
 
 
 
+.about{
+	padding: 100px 0 0;
+}
+
+
 .about .description{
-	padding: 80px 0 120px;
+	padding: 40px 0 120px;
 	font-size: 18px;
 	color: #777;
 
@@ -306,10 +381,6 @@ a, a:hover{
 }
 
 
-
-.about{
-	padding: 120px 0 0;
-}
 
 .about-bg{
 	position: absolute;
@@ -359,8 +430,8 @@ a, a:hover{
 }
 
 .contact{
-	padding: 220px 0 0;
-    height: 100vh;
+	padding: 180px 0 0;
+    height: 90vh;
 }
 
 
@@ -447,18 +518,11 @@ a, a:hover{
 	.navbar-brand {
 		padding-left: 30px;
 	}
-	.navbar-right{
-		padding-right: 20px;
+	.navbar-right, .navbar-toggle{
+		padding: 0 20px;
 	}
-	.navbar-default .navbar-nav>li>a{
-		text-align: right;
-		padding: 10px 0;
-	}
-	.navbar-default .navbar-collapse {
-		background: #fff;
-		border-top: none;
-		border-bottom: 1px #ddd solid;
-	}
+
+
 	.contact{
 		padding-top: 80px; 
 	}
