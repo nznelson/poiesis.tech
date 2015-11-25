@@ -56,7 +56,7 @@ a, a:hover{
 	right: 0;
 	bottom: 0;
 	background: #6076FD;
-	height: 4px;
+	height: 3px;
 	-webkit-transform: translateY(4px);
 	transform: translateY(4px);
 	-webkit-transition-property: transform;
@@ -79,8 +79,10 @@ a, a:hover{
 	border:none;
 	background:none;
 	margin-bottom: 0;
-	padding-bottom: 30px;
+	padding-bottom: 22px;
 	z-index: 100;
+	position: absolute;
+	width: 100%;
 	
 }
 
@@ -103,8 +105,8 @@ a, a:hover{
 }
 
 .navbar-default .navbar-nav li{
-		width: 33%;
-	float: left;
+		
+	
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -114,7 +116,8 @@ a, a:hover{
 	font-weight: 500;
 	letter-spacing: 3px;
 	text-align: center;
-	padding: 40px 0;
+	padding-top:5px;
+	margin-left: 40px;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition:  all 0.4s ease;
 	-o-transition: all 0.4s ease;
@@ -152,13 +155,15 @@ a, a:hover{
 
 
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
 	background:none;
+	border: none;
+	margin-top: 4px;
 }
 
 /* mobile nav for desktop */
 
-.navbar-header {
+/*.navbar-header {
 	float: none;
 }
 .navbar-toggle {
@@ -183,7 +188,7 @@ a, a:hover{
 .navbar-collapse.collapse.in {
 	display: block !important; 
 
-}
+}*/
 
 
 .btn-default:hover, .btn-default:focus, .btn-default:active{
@@ -219,8 +224,8 @@ a, a:hover{
 
 
 .intro{
-	padding: 0;
-	height: 90vh;
+	padding: 90px 0 0;
+	height: 100vh;
 	
 	width: 100%;
 	text-align: center;
@@ -283,7 +288,7 @@ a, a:hover{
 
 
 .work{
-	padding: 80px 0 0;
+	padding: 180px 0 0;
 }
 
 .work .project-section{
@@ -293,8 +298,9 @@ a, a:hover{
 
 .work .project{
 	width: 100%;
-	height: 100vh;
+	height: 80vh;
 	position: relative;
+	margin-bottom: 60px;
 	
 }
 
@@ -359,7 +365,7 @@ a, a:hover{
 
 
 .about{
-	padding: 80px 0 0;
+	padding: 180px 0 0;
 }
 
 
@@ -426,8 +432,8 @@ a, a:hover{
 }
 
 .contact{
-	padding: 160px 0 0;
-    height: 90vh;
+	padding: 240px 0 0;
+    height: 100vh;
 }
 
 
@@ -507,6 +513,8 @@ a, a:hover{
 	}
 }
 
+
+
 @media (max-width: 768px) {
 	.container{
 		padding: 0 40px;
@@ -518,6 +526,15 @@ a, a:hover{
 		padding: 0 20px;
 	}
 
+	.navbar-right{
+		background: #fff;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		padding: 15px 0;
+		padding-right: 15px;
+		text-align: right;
+	}
 
 	.contact{
 		padding-top: 80px; 
