@@ -16,25 +16,7 @@ a, a:hover{
 	color: #6076FD;
 }
 
-.hvr-grow-shadow {
-	display: inline-block;
-	vertical-align: middle;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-	-webkit-transition-property: box-shadow, transform;
-	transition-property: box-shadow, transform;
-}
-.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-	box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.5);
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
-}
+
 
 .hvr-underline-reveal {
 	display: inline-block;
@@ -317,7 +299,7 @@ a, a:hover{
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 	color: #fff;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	
 
 }
@@ -522,6 +504,25 @@ a, a:hover{
 	.container {
 		width: 1150px;
 	}
+	.hvr-grow-shadow {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+	box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
 }
 
 
